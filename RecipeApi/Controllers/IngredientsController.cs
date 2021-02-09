@@ -23,7 +23,7 @@ namespace RecipeApi.Controllers
         }
 
         /// <summary>
-        /// Get all ingredients.
+        /// Get all of your ingredients.
         /// </summary>
         /// <returns></returns>
         [HttpGet(Name = nameof(GetAllIngredients))]
